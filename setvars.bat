@@ -1,0 +1,7 @@
+@echo off
+set GOROOT=c:\go
+set ROOTDIR=%~dp0
+set APP_LOCAL_GOPATH=app/
+set APP_PACKGE_PATH=%APP_LOCAL_GOPATH%src/hello_world/
+set GOPATH=%ROOTDIR%;%ROOTDIR%%APP_LOCAL_GOPATH%
+set PKGDIR=%ROOTDIR%/pkg/%GOOS%_%GOARCH%/

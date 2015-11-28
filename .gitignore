@@ -1,0 +1,13 @@
+*
+!*/
+!*.go
+
+!*.sh
+!*.bat
+
+!.gitignore
+!*/.gitignore
+
+bin
+pkg
+/src
